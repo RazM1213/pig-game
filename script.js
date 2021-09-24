@@ -57,7 +57,7 @@ btnRoll.addEventListener('click', function () {
     const dice = Math.trunc(Math.random() * 6) + 1;
     //Display the dice on the board:
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${dice}.png`;
+    diceEl.src = `dice-pics/dice-${dice}.png`;
     //Check whether the number is 1 or not:
     if (dice === 1) {
       switchPlayer();
